@@ -75,8 +75,8 @@
   - [Вкладки: врачи, аптеки, клиники и пр. (центральный блок)](src/guide/rep-planning-central-block.md)
     - Общее по объектам и субъектам
       - [ ] [Режим редактирования](src/guide/rep-planning-central-block-edit.md)
-        - [ ] Отключение или удаление нескольких объектов/субъектов
         - [ ] Просмотр отключенных объектов/субъектов
+        - [ ] [Отключение или удаление нескольких объектов/субъектов](src/guide/rep-planning-central-block-edit-multi.md)
       - [ ] [Фильтры](src/guide/rep-planning-central-block-filters.md)
       - [ ] [Экспорт](src/guide/rep-planning-central-block-export.md)
     - [ ] Списки субъектов (врачи, ОЛ). Описание элементов интерфейса и возможностей
