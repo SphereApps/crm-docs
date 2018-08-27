@@ -100,7 +100,7 @@
     - Общее
       - [ ] [Добавление фото](src/guide/rep-visits-foto.md)
       - [ ] [Цели визита](src/guide/rep-visits-target.md)
-      - [ ] [Отмена визита](src/guide/rep-visits-cancel.md)
+      - [ ] [Отмена визита (несостоявшийся визит)](src/guide/rep-visits-cancel.md)
     - [ ] [Итоги визита в объект (аптеку)](src/guide/rep-visits-object.md)
     - [ ] [Итоги визита к субъекту (врачу)](src/guide/rep-visits-subject.md)
     - [ ] [Итоги визита к ОЛ](src/guide/rep-visits-ol.md)
