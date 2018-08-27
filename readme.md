@@ -95,7 +95,7 @@
     - [ ] [Цели визита](src/guide/rep-add-target.md)
     - [ ] [Режим работы врача](src/guide/rep-add-schedule.md)
     
-- Визиты (visits)    
+- Планирование - Визиты (rep-visits)    
   - [ ] [Осуществление визита и занесение его итогов. Откуда можно открыть страницу визита](src/guide/rep-visits.md)
     - Общее
       - [ ] [Добавление фото](src/guide/rep-visits-foto.md)
