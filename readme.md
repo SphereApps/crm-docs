@@ -38,7 +38,7 @@
     - [ ] [Фильтр базы по географической принадлежности](src/guide/database-geo.md)
   - [ ] [Управление субъектами. Описание элементов интерфейса и возможностей](src/guide/database-subject.md)
     - [ ] [Страница редактирования субъекта. Описание элементов интерфейса и возможностей](src/guide/database-subject-edit.md)
-      - [ ] [График работы субъекта](src/guide/database-subject-schedule.md)
+      - [ ] [Режим работы субъекта](src/guide/database-subject-schedule.md)
       - [ ] [Связанные аптеки](src/guide/database-subject-pharmacy.md)
   - [ ] [Управление объектами. Описание элементов интерфейса и возможностей](src/guide/database-object.md)
     - [ ] [Добавление объекта. Обязательные поля. Внесение адреса](src/guide/database-object-add.md)
