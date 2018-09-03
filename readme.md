@@ -45,6 +45,7 @@
     - [ ] [Просмотр объекта на карте](src/guide/database-object-map.md)
     - [ ] [Страница редактирования объекта. Описание элементов интерфейса и возможностей](src/guide/database-object-edit.md)
       - [ ] [Контакты. Описание, добавление, удаление](src/guide/database-object-contact.md)
+      - [ ] [Список субъектов у объекта](src/guide/database-object-subjects.md)
       - [ ] [Добавление субъекта к объекту. Описание (добавить нового или существующего)](src/guide/database-object-add-subject.md)
   - [ ] [Продукты. Описание элементов интерфейса и возможностей](src/guide/database-product.md)
     - [ ] [Установка диапазонов потенциала и лояльности](src/guide/database-product-pl.md)
