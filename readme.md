@@ -13,8 +13,8 @@
 - Общие (common)
   - [ ] [Авторизация и первый вход](src/guide/common-start.md)
   - [ ] [Обновление программы](src/guide/common-update.md)
+  - [ ] [Описание интерфейса в целом - шапка, левая панель, основное окно](src/guide/common-interface.md)  
   - [ ] [Оффлайн. Описание возможностей и нюансы](src/guide/common-offline.md)
-  - [ ] [Описание интерфейса в целом - шапка, левая панель, основное окно](src/guide/common-interface.md)
 
 - Пользователи (accounts)
   - [ ] [Список пользователей. Описание элементов страницы и возможности](src/guide/accounts-user.md)
