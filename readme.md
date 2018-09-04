@@ -121,7 +121,7 @@
     - [ ] [Описание блока с визитами. Обозначения. Детали и Цели визита](src/guide/reports-visits-visit.md)
     - [ ] [Экспорт визитов. Варианты экспорта. Детали визита](src/guide/reports-visits-export.md)
   - [ ] [Сводная таблица. Описание, интерфейс, возможности](src/guide/reports-summary.md)
-    - [ ] [Общая сводная таблица. Описание некоторых колонок. Экспорт](src/guide/reports-summary-export.md)
+    - [ ] [Общая сводная таблица. Описание некоторых колонок. Экспорт](src/guide/reports-summary-common.md)
     - [ ] [По специальности. Описание](src/guide/reports-summary-speciality.md)
     - [ ] [Частота визитов. Описание](src/guide/reports-summary-frequency.md)
   - [ ] [Журнал действий. Описание, интерфейс, возможности](src/guide/reports-log.md)
