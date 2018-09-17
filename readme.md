@@ -11,9 +11,9 @@
 ## Список тем
 
 - Общие (common)
-  - [ ] [Авторизация и первый вход](src/guide/common-start.md)
-  - [ ] [Обновление программы](src/guide/common-update.md)
-  - [ ] [Описание интерфейса в целом - шапка, левая панель, основное окно](src/guide/common-interface.md)  
+  - [x] [Авторизация и первый вход](src/guide/common-start.md)
+  - [x] [Обновление программы](src/guide/common-update.md)
+  - [x] [Описание интерфейса в целом - шапка, левая панель, основное окно](src/guide/common-interface.md)  
   - [ ] [Оффлайн. Описание возможностей и нюансы](src/guide/common-offline.md)
 
 - Пользователи (accounts)
@@ -92,7 +92,7 @@
     - [ ] [Двойной визит](src/guide/rep-add-double.md)
     - [ ] [Цели визита](src/guide/rep-add-target.md)
     - [ ] [Режим работы врача](src/guide/rep-add-schedule.md)
-    
+  
 - Планирование - Визиты (rep-visits)    
   - [ ] [Осуществление визита и занесение его итогов. Откуда можно открыть страницу визита](src/guide/rep-visits.md)
     - Общее
