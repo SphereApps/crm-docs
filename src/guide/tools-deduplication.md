@@ -9,5 +9,5 @@
 
 ![](../images/tools-deduplication-ui-toolbar.png)
 
-- [Объединение дублей](tools-deduplication-merge.md)
-- [Восстановление результатов объединения](tools-deduplication-cancel.md)
+- [Объединение дублей](tools-deduplication-merge.html)
+- [Восстановление результатов объединения](tools-deduplication-cancel.html)

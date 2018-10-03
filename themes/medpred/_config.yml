@@ -1,0 +1,326 @@
+
+# html lang
+language: ru
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700&amp;subset=cyrillic
+- /css/medpred.css
+
+# scripts loaded in the end of the body
+# - https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js
+scripts:
+- https://cdn.jsdelivr.net/npm/umbrellajs
+- /js/medpred.js
+
+navigation:
+
+- text: Введение
+  children:
+  - text: Документация
+    path: index.html
+  - text: Авторизация и первый вход
+    path: guide/common-start.html
+
+  - text: Обновление программы
+    path: guide/common-update.html
+
+  - text: Описание интерфейса
+    path: guide/common-interface.html
+
+  - text: Оффлайн
+    path: guide/common-offline.html
+
+
+- text: Пользователи и роли
+  children:
+  - text: Управление пользователями
+    path: guide/accounts-user.html
+    children: 
+    - text: Описанием полей
+      path: guide/accounts-user-fields.html
+
+    - text: Добавление пользователя
+      path: guide/accounts-user-add.html
+
+    - text: Редактирование пользователя
+      path: guide/accounts-user-edit.html
+
+    - text: Рабочий регион
+      path: guide/accounts-user-region.html
+
+    - text: Изменение пароля
+      path: guide/accounts-user-password.html
+
+    - text: Экспорт базы пользователя
+      path: guide/accounts-user-base-export.html
+
+    - text: Копирование базы другому пользователю
+      path: guide/accounts-user-base-copy.html
+
+    - text: Удаление и восстановление
+      path: guide/accounts-user-delete.html
+
+  - text: Группы пользователей
+    path: guide/accounts-group.html
+    children:
+    - text: Создание группы
+      path: guide/accounts-group-create.html
+
+    - text: Настройки группы
+      path: guide/accounts-group-edit.html
+
+
+- text: Управление данными
+  children:
+  - text: Общие сведения
+    path: guide/database.html
+    children:
+    - text: Экспорт субъектов и объектов
+      path: guide/database-export.html
+
+    - text: Фильтр базы по географической принадлежности
+      path: guide/database-geo.html
+
+    - text: Просмотр базы сотрудников
+      path: guide/database-user.html
+
+
+  - text: Управление субъектами
+    path: guide/database-subject.html
+    children:
+    - text: Страница редактирования субъекта
+      path: guide/database-subject-edit.html
+
+    - text: Режим работы субъекта
+      path: guide/database-subject-schedule.html
+
+    - text: Связанные аптеки
+      path: guide/database-subject-pharmacy.html
+
+  - text: Управление объектами
+    path: guide/database-object.html
+    children:
+    - text: Добавление объекта
+      path: guide/database-object-add.html
+
+    - text: Просмотр объекта на карте
+      path: guide/database-object-map.html
+
+    - text: Страница редактирования объекта
+      path: guide/database-object-edit.html
+
+    - text: Контакты. Описание, добавление, удаление
+      path: guide/database-object-contact.html
+
+    - text: Список субъектов у объекта
+      path: guide/database-object-subjects.html
+
+    - text: Добавление субъекта к объекту
+      path: guide/database-object-add-subject.html
+
+  - text: Список продуктов
+    path: guide/database-product.html
+    children:
+    - text: Настройка потенциала и лояльности
+      path: guide/database-product-pl.html
+
+  - text: Территории
+    path: guide/database-territory.html
+    children:
+    - text: Добавление
+      path: guide/database-territory-add.html
+
+    - text: Редактирование
+      path: guide/database-territory-edit.html
+
+  - text: Участки
+    path: guide/database-sector.html
+    children:
+    - text: Добавление
+      path: guide/database-sector-add.html
+
+    - text: Редактирование
+      path: guide/database-sector-edit.html
+
+  - text: Списки
+    path: guide/database-dict.html
+    children:
+    - text: Описание типов
+      path: guide/database-dict-type.html
+
+    - text: Добавление элементов списка
+      path: guide/database-dict-add.html
+
+    - text: Особенности визит-эквивалента
+      path: guide/database-dict-novisit.html
+
+    - text: Объединение элементов списка
+      path: guide/database-dict-merge.html
+
+
+  - text: Корзина
+    path: guide/database-trash.html
+    children:
+    - text: Восстановление удаленных данных
+      path: guide/database-trash-restore.html
+
+
+- text: Инструменты
+  children:
+  - text: Дедубликация
+    path: guide/tools-deduplication.html
+    children:
+    - text: Процесс объединения найденных дублей. Выбор основного. Отмена (не дубли)
+      path: guide/tools-deduplication-merge.html
+
+    - text: Восстановление результатов объединения
+      path: guide/tools-deduplication-cancel.html
+
+
+  - text: Планирование визитов
+  - text: Общие сведения
+    path: guide/rep-planning.html
+    children:
+    - text: Центральный блок
+      path: guide/rep-planning-central-block.html
+    
+    - text: Короткий план
+      path: guide/rep-planning-short-plan.html
+
+    - text: Фильтры
+      path: guide/rep-planning-central-block-filters.html
+
+    - text: Экспорт
+      path: guide/rep-planning-central-block-export.html
+
+  - text: Списки субъектов (врачи, ОЛ).
+    path: guide/rep-planning-central-block-subjects.html
+    children:
+    - text: Врачи. Список по ФИО
+      path: guide/rep-planning-central-block-subjects-fio.html
+
+    - text: Врачи. Список по месту работы
+      path: guide/rep-planning-central-block-subjects-work.html
+
+  - text: Списки объектов (аптеки, клиники)
+    path: guide/rep-planning-central-block-objects.html
+
+  - text: Режим редактирования списков
+    path: guide/rep-planning-central-block-edit.html
+    children:
+    - text: Отключение или удаление
+      path: guide/rep-planning-central-block-edit-multi.html
+
+    - text: Просмотр отключенных объектов
+      path: guide/rep-planning-central-block-edit-view.html
+
+  - text: Визит эквивалент
+    path: guide/rep-planning-central-block-novisit.html
+
+  - text: Двойные визиты
+    path: guide/rep-planning-central-block-double.html
+    children:
+    - text: Добавление двойного визита в план
+      path: guide/rep-add-double.html
+
+  - text: Добавление визита в план
+    path: guide/rep-add.html
+    children:
+    - text: Описание интерфейса с календарем
+      path: guide/rep-add-calendar.html
+      
+    - text: Цели визита
+      path: guide/rep-add-target.html
+
+    - text: Режим работы врача
+      path: guide/rep-add-schedule.html
+
+- text: Осуществление визита
+  children:
+  - text: Подробный план
+    path: guide/rep-planning-full-plan.html
+    children:
+    - text: Изменение даты визита
+      path: guide/rep-planning-full-plan-change-date.html
+
+  - text: Осуществление визита
+    path: guide/rep-visits.html
+    children:
+
+    - text: Добавление фото
+      path: guide/rep-visits-foto.html
+
+    - text: Цели визита
+      path: guide/rep-visits-target.html
+
+    - text: Отмена визита
+      path: guide/rep-visits-cancel.html
+
+    - text: Итоги визита в объект (аптеку)
+      path: guide/rep-visits-object.html
+
+    - text: Итоги визита к субъекту (врачу)
+      path: guide/rep-visits-subject.html
+
+    - text: Итоги визита к ОЛ
+      path: guide/rep-visits-ol.html
+
+    - text: Итоги визит эквивалента
+      path: guide/rep-visits-novisit.html
+
+    - text: Итоги двойных визитов
+      path: guide/rep-visits-double.html
+
+
+- text: Карта
+  children:
+  - text: Описание и возможности
+    path: guide/map.html
+    children:
+    - text: Просмотр своих объектов
+      path: guide/map-planning.html
+
+    - text: Изменение координат объекта
+      path: guide/map-change-object-latlng.html
+
+    - text: Просмотр визитной активности 
+      path: guide/map-visits.html
+
+  - text: Просмотр активности сотрудников
+    path: guide/map-users.html
+
+
+- text: Статистика и отчеты
+  children:
+
+  - text: Общая статистика визитов
+    path: guide/reports-visits.html
+    children:
+    - text: Выбор периода и фильтры. Типы фильтров, множественный выбор
+      path: guide/reports-filters.html
+
+    - text: Описание блока с визитами
+      path: guide/reports-visits-visit.html
+
+    - text: Экспорт визитов
+      path: guide/reports-visits-export.html
+
+  - text: Сводная таблица
+    path: guide/reports-summary.html
+    children:
+    - text: Общая сводная таблица
+      path: guide/reports-summary-common.html
+
+    - text: По специальности
+      path: guide/reports-summary-speciality.html
+
+    - text: Частота визитов
+      path: guide/reports-summary-frequency.html
+
+  - text: Журнал действий
+    path: guide/reports-log.html
+

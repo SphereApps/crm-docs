@@ -1,0 +1,182 @@
+@import 'nib'
+
+$accent-color = #42b983
+
+global-reset()
+
+body
+  font-family 'Roboto', sans-serif
+  line-height 1.5rem
+  font-size 1.1rem
+
+  overflow hidden
+  display flex
+  height 100vh
+  color #2c3e50
+
+  #sidebar
+    width 360px
+    background-color rgba(#2c3e50, .08)
+    border-right 1px solid rgba(#2c3e50, .15)
+    box-shadow 0 0 14px rgba(#2c3e50, .05)
+    overflow-y auto
+    overflow-x hidden
+    
+    nav 
+      font-size 16px
+      line-height 18px
+
+      > ul > li
+        margin 0 10px 0 20px
+        &.opened > ul
+          display block
+        > ul
+          display none
+          font-size 14px
+          > li
+            list-style-type disc
+            margin 0 0 0 20px
+            > a
+              padding 5px 0
+            &.active a
+              color $accent-color
+        
+        &.active > a
+          margin-left -20px
+          padding-left 20px
+          box-shadow inset 4px 0 0 $accent-color
+          color $accent-color
+        &.opened > a
+          margin-left -20px
+          padding-left 20px
+          box-shadow inset 4px 0 0 $accent-color
+          // color $accent-color
+
+      span.label
+        display block
+        // text-transform uppercase
+        // font-weight bold
+        font-size 1.1em
+        font-family 'Roboto Slab'
+        border-bottom 1px solid #0002
+        color mix(#2c3e50, #FFF, 40%)
+        padding 20px 20px 10px
+        margin 0 -10px 0 -20px
+      a
+        display block
+        padding 8px 0
+        text-decoration none
+        color #2c3e50
+      
+
+  #main-section
+    flex 5
+    position relative
+
+  .section-wrapper
+    display flex
+    flex-flow row wrap
+    flex-direction column
+    position absolute
+    top 0
+    left 0
+    right 0
+    bottom 0
+
+  .section-content
+    flex 6
+    overflow-y auto
+    overflow-x hidden
+  
+  .content
+    max-width 800px
+    padding 40px
+    margin 0 auto
+    box-sizing border-box
+
+article
+  a
+    color $accent-color
+    text-decoration none
+    &:hover
+      text-decoration underline
+  h1
+    font-size 31px
+    font-family 'Roboto Slab'
+    font-weight normal
+    margin-bottom 40px
+    line-height 30px
+
+  h2
+    font-size 24px
+    font-family 'Roboto Slab'
+    font-weight normal
+    margin 60px 0 20px
+    padding-bottom 20px
+    border-bottom 1px solid #0002
+    position relative
+
+    .headerlink
+      display inline-block
+      width 25px
+      margin-left (- @width)
+      color rgba(#2c3e50, .3)
+      &:hover
+        color $accent-color
+        text-decoration none
+      &:before
+        content '#'
+  h3
+    font-size 20px
+    font-family 'Roboto Slab'
+    font-weight normal
+    margin 40px 0 10px
+    padding-bottom 10px
+    border-bottom 1px solid #0002
+    position relative
+
+  p
+    margin-bottom 10px
+  b, strong
+    font-weight 700
+
+  img[src$="#inline"]
+    display inline-block
+    vertical-align middle
+    
+  img:not([src$="#inline"])
+    display block
+    max-width 100%
+    margin 20px auto 50px
+    box-shadow 0 20px 50px -10px #0005
+    border-radius 5px
+    //box-sizing border-box
+    //padding 10px
+    background-color #FFF
+    //border 1px solid #0001
+  ul,ol
+    padding-left 20px
+    margin-bottom 20px
+  ul > li
+      list-style disc
+  ol > li
+    list-style decimal
+  
+  blockquote 
+    background-color #f8f8f8
+    padding 15px 20px
+    margin 20px 0
+    border-left 4px solid #f66
+    position relative
+    > *:last-child
+      margin-bottom 0
+    +blockquote
+      margin-bottom 0
+  code
+    color #e96900
+    background-color rgba(#2c3e50, .08)
+    padding 1px 5px
+    font-size 0.9em
+    margin 0 2px
+    border-radius 2px
+    white-space nowrap

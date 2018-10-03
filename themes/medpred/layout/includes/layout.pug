@@ -1,0 +1,70 @@
+- function navActive(item) {
+-  if (!item.path) return;
+-  let isOpened,isActive;
+-  if (item.path == page.path) isActive = true;
+-  if (item.children) isOpened = item.children.filter(sub => sub.path == page.path).length > 0;
+-  return (isActive ? 'active' : '') + ' ' + (isOpened||isActive ? 'opened' : '');
+- }
+
+- var pageTitle = page.title || config.subtitle || ''
+- if (is_archive()) pageTitle = 'Archives'
+- if (is_tag()) pageTitle = 'Tag: ' + page.tag
+- if (is_category()) pageTitle = 'Category: ' + page.category
+- if (is_month()) pageTitle += ': ' + page.month + '/' + page.year
+- if (is_year()) pageTitle += ': ' + page.year
+- pageTitle += (pageTitle ? ' - ' : '') + config.title
+
+doctype html
+html(lang=config.language)
+  head
+    meta(charset='UTF-8')
+    title= pageTitle
+    link(rel="stylesheet" href=theme.webfonts)
+    if theme.stylesheets !== undefined && theme.stylesheets.length > 0
+      //- stylesheets list from config.yml
+      each url in theme.stylesheets
+        link(rel='stylesheet', href=url)
+    link(rel="icon", href=config.root + 'img/favicon.png')
+  
+  body
+    aside#sidebar
+      nav
+        each group in theme.navigation
+          ul
+            li: span.label: = group.text
+            each item in group.children
+              li(class=navActive(item))
+                a(href=`/${item.path}`)= item.text
+                if item.children
+                  ul
+                    each sub in item.children
+                      li(class=navActive(sub))
+                        a(href=`/${sub.path}`)= sub.text
+                        
+
+
+    section#main-section
+      .section-wrapper
+        //- .section-header asd
+        .section-content
+          .content
+            if body
+              div!= body
+            else
+              block content
+
+        //- .section-footer
+          #bottom-outer
+            #bottom-inner
+              span Site construction by
+              span= ' ' + config.author + ' '
+              span using
+              a(href='http://hexo.io')
+                span hexo blog framework
+              span .
+              br
+              a(href=config.root) Home
+      if theme.scripts !== undefined && theme.scripts.length > 0
+        //- scripts list from config.yml
+        each url in theme.scripts
+          script(src=url)

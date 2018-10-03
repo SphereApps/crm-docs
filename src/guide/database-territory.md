@@ -17,6 +17,6 @@
 ![](../images/database-territory.png)
 
 Территории можно:
- - [создавать](database-territory-add.md) [1], [2]
- - [редактировать](database-territory-edit.md) [3]
- - удалять [4]
+ - [создавать](database-territory-add.html) `1`, `2`
+ - [редактировать](database-territory-edit.html) `3`
+ - удалять `4`

@@ -1,0 +1,21 @@
+extends includes/layout.pug
+
+
+block content
+
+  //- include includes/recent-posts.pug
+  //- div!= paginator()
+  article
+    != page.content
+  
+    each group in theme.navigation
+      h3: = group.text
+      ul
+        each item in group.children
+          li(class=navActive(item))
+            a(href=`/${item.path}`)= item.text
+            if item.children
+              ul
+                each sub in item.children
+                  li(class=navActive(sub))
+                    a(href=`/${sub.path}`)= sub.text
