@@ -35,7 +35,7 @@ navigation:
     path: guide/common-offline.html
 
 
-- text: Пользователи и роли
+- text: Пользователи и группы
   children:
   - text: Управление пользователями
     path: guide/accounts-user.html
@@ -174,14 +174,15 @@ navigation:
   - text: Дедубликация
     path: guide/tools-deduplication.html
     children:
-    - text: Процесс объединения найденных дублей. Выбор основного. Отмена (не дубли)
+    - text: Процесс объединения дублей
       path: guide/tools-deduplication-merge.html
 
-    - text: Восстановление результатов объединения
+    - text: Отмена результатов объединения
       path: guide/tools-deduplication-cancel.html
 
 
-  - text: Планирование визитов
+- text: Планирование визитов
+  children:
   - text: Общие сведения
     path: guide/rep-planning.html
     children:
