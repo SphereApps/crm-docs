@@ -8,12 +8,13 @@ favicon: /favicon.ico
 # stylesheets loaded in the <head>
 stylesheets:
 - https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700&amp;subset=cyrillic
+- /css/senna.css
 - /css/medpred.css
 
 # scripts loaded in the end of the body
 # - https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js
 scripts:
-- https://cdn.jsdelivr.net/npm/umbrellajs
+- /js/senna-min.js
 - /js/medpred.js
 
 navigation:

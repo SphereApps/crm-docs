@@ -1,9 +1,25 @@
-(function(d){
-    let scrollOffset = -36;
-    let sidebarNode = d.getElementById('sidebar');
-    let openedNode = sidebarNode.querySelector('li.opened');
-
-    if (openedNode) {
-        sidebarNode.scrollTop = openedNode.getBoundingClientRect().top + scrollOffset;
+(function(){
+    var sidebarNode = document.getElementById('sidebar');
+    
+    var scrollToActive = function() {
+      var openedNode = sidebarNode.querySelector('li.active');
+      if (openedNode) {
+          var nodeTop = openedNode.getBoundingClientRect().top;
+          var sidebarHeight = sidebarNode.offsetHeight;
+          if (sidebarHeight < nodeTop) {
+            sidebarNode.scrollTop = nodeTop - Math.round(sidebarHeight / 2);
+          }
+      }
     }
-})(document);
+    
+    var initSpa = function() {
+      var app = new senna.App();
+      app.addSurfaces(['main-section', 'sidebar']);
+      sidebarNode.querySelectorAll('a').forEach(function(item){
+        app.addRoutes(new senna.Route(item.getAttribute('href'), senna.HtmlScreen));
+      });
+    }
+    
+    initSpa();
+    scrollToActive();
+})();
