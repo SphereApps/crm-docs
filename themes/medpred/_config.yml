@@ -108,16 +108,19 @@ navigation:
     - text: Добавление объекта
       path: guide/database-object-add.html
 
-    - text: Просмотр объекта на карте
-      path: guide/database-object-map.html
+    # - text: Просмотр объекта на карте
+    #   path: guide/database-object-map.html
 
     - text: Страница редактирования объекта
       path: guide/database-object-edit.html
 
-    - text: Контакты. Описание, добавление, удаление
+    - text: Контакты объекта
       path: guide/database-object-contact.html
 
-    - text: Список субъектов у объекта
+    - text: Проверка ИНН и ОГРН
+      path: guide/database-object-edit-inn-check.html
+
+    - text: Список врачей на странице объекта
       path: guide/database-object-subjects.html
 
     - text: Добавление субъекта к объекту
