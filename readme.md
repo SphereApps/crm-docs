@@ -47,6 +47,9 @@
       - [ ] [Контакты. Описание, добавление, удаление](src/guide/database-object-contact.md)
       - [ ] [Список субъектов у объекта](src/guide/database-object-subjects.md)
       - [ ] [Добавление субъекта к объекту. Описание (добавить нового или существующего)](src/guide/database-object-add-subject.md)
+    - [ ] [Договора](src/guide/database-object-contract.md)
+      - [ ] [Добавление договора](src/guide/database-object-contract-add.md)
+        
   - [ ] [Продукты. Описание элементов интерфейса и возможностей](src/guide/database-product.md)
     - [ ] [Установка диапазонов потенциала и лояльности](src/guide/database-product-pl.md)
   - [ ] [Территории. Описание элементов интерфейса и возможностей](src/guide/database-territory.md)
@@ -99,11 +102,12 @@
       - [ ] [Добавление фото](src/guide/rep-visits-foto.md)
       - [ ] [Цели визита](src/guide/rep-visits-target.md)
       - [ ] [Отмена визита (несостоявшийся визит)](src/guide/rep-visits-cancel.md)
-    - [ ] [Итоги визита в объект (аптеку)](src/guide/rep-visits-object.md)
+    - [ ] [Итоги визита в объект (аптеку)](src/guide/rep-visits-object.md)      
     - [ ] [Итоги визита к субъекту (врачу)](src/guide/rep-visits-subject.md)
     - [ ] [Итоги визита к ОЛ](src/guide/rep-visits-ol.md)
     - [ ] [Итоги визит эквивалента](src/guide/rep-visits-novisit.md)
     - [ ] [Итоги двойных визитов](src/guide/rep-visits-double.md) 
+    - [ ] [Претензионный лист](src/guide/rep-visits-treaty.md)
 
 - Карта (map)
   - [ ] [Карта. Описание и возможности (для менеджера и пользователя)](src/guide/map.md)
