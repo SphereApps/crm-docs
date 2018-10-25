@@ -125,6 +125,12 @@ navigation:
 
     - text: Добавление субъекта к объекту
       path: guide/database-object-add-subject.html
+  
+  - text: Договора
+    path: guide/database-object-contract.html
+    children:
+    - text: Добавление договора
+      path: guide/database-object-contract-add.html
 
   - text: Список продуктов
     path: guide/database-product.html
@@ -261,6 +267,9 @@ navigation:
 
     - text: Цели визита
       path: guide/rep-visits-target.html
+
+    - text: Претензионный лист
+      path: guide/rep-visits-treaty.html
 
     - text: Отмена визита
       path: guide/rep-visits-cancel.html

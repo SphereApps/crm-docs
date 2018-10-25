@@ -22,4 +22,15 @@
     
     initSpa();
     scrollToActive();
+
+    function isBrowser(name) {
+      return navigator.userAgent.toLowerCase().indexOf(name) >= 0;
+    }
+
+    // fix firefox history back bug
+    if (isBrowser('firefox') || isBrowser('chrome')) {
+      window.onpopstate = function() {
+        window.location.reload();
+      }
+    }
 })();
