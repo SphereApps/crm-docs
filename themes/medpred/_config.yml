@@ -341,5 +341,5 @@ navigation:
 
 - text: Расширенные возможности
   children:
-    - text: Частота визитов
+    - text: Отправка материалов на почту
       path: guide/extra-share-documents.html
