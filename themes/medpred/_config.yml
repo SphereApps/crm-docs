@@ -338,3 +338,8 @@ navigation:
   - text: Журнал действий
     path: guide/reports-log.html
 
+
+- text: Расширенные возможности
+  children:
+    - text: Частота визитов
+      path: guide/extra-share-documents.html
