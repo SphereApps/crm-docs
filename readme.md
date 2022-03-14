@@ -129,3 +129,5 @@
     - [ ] [По специальности. Описание](src/guide/reports-summary-speciality.md)
     - [ ] [Частота визитов. Описание](src/guide/reports-summary-frequency.md)
   - [ ] [Журнал действий. Описание, интерфейс, возможности](src/guide/reports-log.md)
+
+Бла бла бла
