@@ -41,7 +41,7 @@ navigation:
   - text: Управление пользователями
     path: guide/accounts-user.html
     children: 
-    - text: Описанием полей
+    - text: Описание полей
       path: guide/accounts-user-fields.html
 
     - text: Добавление пользователя
@@ -126,7 +126,7 @@ navigation:
     - text: Добавление субъекта к объекту
       path: guide/database-object-add-subject.html
   
-  - text: Договора
+  - text: Договоры
     path: guide/database-object-contract.html
     children:
     - text: Добавление договора
