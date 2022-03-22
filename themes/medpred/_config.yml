@@ -74,6 +74,8 @@ navigation:
     - text: Настройки группы
       path: guide/accounts-group-edit.html
 
+    - text: Настройка видимости продуктов для групп пользователей
+      path: guide/accounts-group-allowed-products.html
 
 - text: Управление данными
   children:
