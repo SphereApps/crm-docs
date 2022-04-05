@@ -149,16 +149,7 @@ navigation:
     - text: Редактирование
       path: guide/database-territory-edit.html
 
-  - text: Участки
-    path: guide/database-sector.html
-    children:
-    - text: Добавление
-      path: guide/database-sector-add.html
-
-    - text: Редактирование
-      path: guide/database-sector-edit.html
-
-  - text: Списки
+    - text: Списки
     path: guide/database-dict.html
     children:
     - text: Описание типов
@@ -172,14 +163,6 @@ navigation:
 
     - text: Объединение элементов списка
       path: guide/database-dict-merge.html
-
-
-  - text: Корзина
-    path: guide/database-trash.html
-    children:
-    - text: Восстановление удаленных данных
-      path: guide/database-trash-restore.html
-
 
 - text: Инструменты
   children:
@@ -337,6 +320,9 @@ navigation:
     - text: Частота визитов
       path: guide/reports-summary-frequency.html
 
+  - text: Отчет по учету рабочего времени
+    path: guide/reports-time-work.html
+  
   - text: Журнал действий
     path: guide/reports-log.html
 
