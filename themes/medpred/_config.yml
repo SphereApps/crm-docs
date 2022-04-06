@@ -149,7 +149,7 @@ navigation:
     - text: Редактирование
       path: guide/database-territory-edit.html
 
-    - text: Списки
+  - text: Списки
     path: guide/database-dict.html
     children:
     - text: Описание типов
