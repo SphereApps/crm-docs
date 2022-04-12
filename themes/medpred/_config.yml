@@ -176,7 +176,7 @@ navigation:
       path: guide/tools-deduplication-cancel.html
       
   - text: Ручная дедупликация 
-    path: guide/tools-deduplication-hand.html
+    path: guide/tools-deduplication-manual.html
 
 - text: Планирование визитов
   children:
