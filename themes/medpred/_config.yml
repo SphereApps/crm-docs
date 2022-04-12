@@ -166,7 +166,7 @@ navigation:
 
 - text: Инструменты
   children:
-  - text: Дедубликация
+  - text: Дедупликация
     path: guide/tools-deduplication.html
     children:
     - text: Процесс объединения дублей
@@ -174,7 +174,9 @@ navigation:
 
     - text: Отмена результатов объединения
       path: guide/tools-deduplication-cancel.html
-
+      
+  - text: Ручная дедупликация 
+    path: guide/tools-deduplication-hand.html
 
 - text: Планирование визитов
   children:
