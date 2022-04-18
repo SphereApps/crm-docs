@@ -34,7 +34,14 @@ navigation:
 
   - text: Оффлайн
     path: guide/common-offline.html
+    
+- text: Часто задаваемые вопросы (FAQ)
+  children:
+  - text: Не геоверифицируется визит
+    path: guide/session-is-not-geoverified.html
 
+  - text: Точка геолокации не ставится 
+    path: guide/geolocation-point.html  
 
 - text: Пользователи и группы
   children:
@@ -174,7 +181,7 @@ navigation:
 
     - text: Отмена результатов объединения
       path: guide/tools-deduplication-cancel.html
-      
+
   - text: Ручная дедупликация 
     path: guide/tools-deduplication-manual.html
 
