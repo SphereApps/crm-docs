@@ -40,7 +40,7 @@ navigation:
   - text: Не геоверифицируется визит
     path: guide/session-is-not-geoverified.html
 
-  - text: Точка геолокации не ставится 
+  - text: Точка геолокации не определяется 
     path: guide/geolocation-point.html  
 
 - text: Пользователи и группы
@@ -170,6 +170,9 @@ navigation:
 
     - text: Объединение элементов списка
       path: guide/database-dict-merge.html
+      
+    - text: Добавление собственных критериев оценки
+      path: guide/database-dict-hand-criteria.html  
 
 - text: Инструменты
   children:
@@ -331,6 +334,9 @@ navigation:
 
   - text: Отчет по учету рабочего времени
     path: guide/reports-time-work.html
+
+  - text: Отчет Общие показатели
+    path: guide/report-general-indicators.html
   
   - text: Журнал действий
     path: guide/reports-log.html
