@@ -205,6 +205,9 @@ navigation:
     - text: Экспорт
       path: guide/rep-planning-central-block-export.html
 
+    - text: Копирование визитов на день/неделю
+      path: guide/copy-planning-full-plan.html
+
   - text: Списки субъектов (врачи, ОЛ).
     path: guide/rep-planning-central-block-subjects.html
     children:
