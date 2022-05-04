@@ -41,8 +41,11 @@ navigation:
     path: guide/session-is-not-geoverified.html
 
   - text: Точка геолокации не определяется 
-    path: guide/geolocation-point.html  
-
+    path: guide/geolocation-point.html 
+     
+  - text: Как включить геолокацию
+    path: guide/enable-geodata.html
+  
 - text: Пользователи и группы
   children:
   - text: Управление пользователями
