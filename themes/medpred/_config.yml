@@ -2,7 +2,7 @@
 # html lang
 language: ru
 
-# Miscelaneous
+# Miscellaneous
 favicon: /favicon.ico
 
 # stylesheets loaded in the <head>
@@ -101,7 +101,6 @@ navigation:
     - text: Просмотр базы сотрудников
       path: guide/database-user.html
 
-
   - text: Управление субъектами
     path: guide/database-subject.html
     children:
@@ -177,8 +176,10 @@ navigation:
     - text: Добавление собственных критериев оценки
       path: guide/database-dict-hand-criteria.html 
 
-- text: Управление ответственными
-    path: guide/assign-responsible.html 
+- text: Ответственные
+  children:
+    - text: Управление ответственными
+      path: guide/assign-responsible.html
 
 - text: Инструменты
   children:
