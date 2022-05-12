@@ -175,7 +175,10 @@ navigation:
       path: guide/database-dict-merge.html
       
     - text: Добавление собственных критериев оценки
-      path: guide/database-dict-hand-criteria.html  
+      path: guide/database-dict-hand-criteria.html 
+
+- text: Управление ответственными
+    path: guide/assign-responsible.html 
 
 - text: Инструменты
   children:
