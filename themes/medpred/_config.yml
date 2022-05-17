@@ -262,8 +262,11 @@ navigation:
   - text: Подробный план
     path: guide/rep-planning-full-plan.html
     children:
+    
     - text: Изменение даты визита
       path: guide/rep-planning-full-plan-change-date.html
+    - text: Удаление закрытого визита
+      path: guide/delete-rep-vizit.html
 
   - text: Осуществление визита
     path: guide/rep-visits.html
