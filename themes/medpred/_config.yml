@@ -176,6 +176,9 @@ navigation:
     - text: Добавление собственных критериев оценки
       path: guide/database-dict-hand-criteria.html 
 
+    - text: Метки
+      path: guide/tags.html 
+
 - text: Ответственные
   children:
     - text: Управление ответственными
