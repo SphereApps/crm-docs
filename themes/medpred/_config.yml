@@ -45,7 +45,7 @@ navigation:
      
   - text: Как включить геолокацию
     path: guide/enable-geodata.html
-  
+
 - text: Пользователи и группы
   children:
   - text: Управление пользователями
@@ -122,8 +122,8 @@ navigation:
     - text: Добавление объекта
       path: guide/database-object-add.html
 
-    # - text: Просмотр объекта на карте
-    #   path: guide/database-object-map.html
+    - text: Просмотр объекта на карте
+      path: guide/database-object-map.html
 
     - text: Страница редактирования объекта
       path: guide/database-object-edit.html
@@ -132,7 +132,7 @@ navigation:
       path: guide/database-object-contact.html
 
     - text: Проверка ИНН и ОГРН
-      path: guide/database-object-edit-inn-check.html
+      path: guide/databa se-object-edit-inn-check.html
 
     - text: Список врачей на странице объекта
       path: guide/database-object-subjects.html
@@ -351,8 +351,8 @@ navigation:
     - text: Частота визитов
       path: guide/reports-summary-frequency.html
 
-  - text: Отчет по учету рабочего времени
-    path: guide/reports-time-work.html
+    - text: Отчет по учету рабочего времени
+      path: guide/reports-time-work.html
 
   - text: Отчет Общие показатели
     path: guide/report-general-indicators.html
