@@ -113,6 +113,9 @@ navigation:
     - text: Связанные аптеки
       path: guide/database-subject-pharmacy.html
 
+    - text: Добавление объекта к субъекту
+      path: guide/database-subject-add-object.html
+
   - text: Управление объектами
     path: guide/database-object.html
     children:
