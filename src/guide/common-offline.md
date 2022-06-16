@@ -28,5 +28,5 @@
 
 Программу можно открыть в оффлайн режиме даже после закрытия браузера.
 
-
- [Посмотреть видео выполнение визита оффлайн](https://storage.yandexcloud.net/support-files/video/rep-vizit-offline.mp4)
+ [Посмотреть видео "Выполнение визита оффлайн" ](https://storage.yandexcloud.net/support-files/video/rep-vizit-offline.mp4)
+ 
