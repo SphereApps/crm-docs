@@ -39,3 +39,6 @@
 `5` Вариации продукта
 
 `6` Добавить вариацию продукта
+
+[Посмотреть видео "Добавление продуктов" ](https://storage.yandexcloud.net/support-files/video/database-product.mp4)
+ 

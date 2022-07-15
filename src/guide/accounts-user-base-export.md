@@ -26,3 +26,5 @@
 -  Телефон
 -  ...
 -  Место работы	
+
+[Посмотреть видео "Выгрузка базы пользователя" ](https://storage.yandexcloud.net/support-files/video/accounts-user-base-export.mp4)
