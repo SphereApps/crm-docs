@@ -160,7 +160,16 @@ navigation:
 
     - text: Редактирование
       path: guide/database-territory-edit.html
+  
+  - text: План-факт
+    path: guide/plan-fact.html
+    children:
+    - text: Добавление
+      path: guide/plan-fact-add.html
 
+    - text: Редактирование
+      path: guide/plan-fact-edit.html
+      
   - text: Списки
     path: guide/database-dict.html
     children:
