@@ -132,7 +132,7 @@ navigation:
       path: guide/database-object-contact.html
 
     - text: Проверка ИНН и ОГРН
-      path: guide/databa se-object-edit-inn-check.html
+      path: guide/database-object-edit-inn-check.html
 
     - text: Список врачей на странице объекта
       path: guide/database-object-subjects.html
