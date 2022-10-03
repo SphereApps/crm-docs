@@ -372,5 +372,8 @@ navigation:
 
 - text: Расширенные возможности
   children:
-    - text: Отправка материалов на почту
+    - text: Модуль маркетинговых коммуникаций
       path: guide/extra-share-documents.html
+
+    - text: Модуль верификации врача
+      path: guide/doctor-verification-module.html
