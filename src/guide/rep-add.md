@@ -23,3 +23,5 @@
 После добавления визита в план, он отображается в блоке "[Краткий План](rep-planning-short-plan.html)".
 
 [Изменить дату и время](rep-planning-full-plan-change-date.html)  или удалить запланированный визит при необходимости можно из "[Подробного плана](rep-planning-full-plan.html)".
+
+Посмотреть видео ["Добавление визита в план"](https://storage.yandexcloud.net/support-files/video/add-plan.mp4)
