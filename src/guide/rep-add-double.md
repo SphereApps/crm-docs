@@ -17,3 +17,5 @@
 После добавления двойного визита в план у менеджера и сотрудника он появится в интерфейсе
 
 ![](../images/rep-add-double-after.png)
+
+Посмотреть видео ["Добавление двойных визитов в план"](https://storage.yandexcloud.net/support-files/video/rep-add-double.mp4)
