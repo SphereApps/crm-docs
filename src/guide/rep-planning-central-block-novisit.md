@@ -15,3 +15,5 @@
  ![](../images/rep-planning-central-block-novisit-calendar.png)
  
 И в этом случае он должен заноситься в план из интерфейса этого объекта/субъекта - например аптеки.
+
+Посмотреть видео ["Добавление визит-эквивалента в план"](https://storage.yandexcloud.net/support-files/video/rep-planning-novisit.mp4)
