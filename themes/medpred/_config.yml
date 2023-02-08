@@ -46,6 +46,9 @@ navigation:
   - text: Как включить геолокацию
     path: guide/enable-geodata.html
 
+  - text: Адрес объекта распознается в другом регионе
+    path: guide/enable-dadata.html
+
 - text: Пользователи и группы
   children:
   - text: Управление пользователями
