@@ -194,6 +194,9 @@ navigation:
     - text: Метки
       path: guide/tags.html 
 
+- text: Материалы/Презентации
+    path: guide/presentation.html      
+
 - text: Ответственные
   children:
     - text: Управление ответственными
