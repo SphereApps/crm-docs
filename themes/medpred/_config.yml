@@ -192,9 +192,9 @@ navigation:
       path: guide/database-dict-hand-criteria.html 
 
     - text: Метки
-      path: guide/tags.html 
+      path: guide/tags.html
 
-- text: Материалы/Презентации
+  - text: Материалы/Презентации
     path: guide/presentation.html      
 
 - text: Ответственные
