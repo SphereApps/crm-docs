@@ -254,9 +254,6 @@ navigation:
     - text: Отключение или удаление
       path: guide/rep-planning-central-block-edit-multi.html
 
-    - text: Просмотр отключенных объектов
-      path: guide/rep-planning-central-block-edit-view.html
-
   - text: Визит эквивалент
     path: guide/rep-planning-central-block-novisit.html
 
