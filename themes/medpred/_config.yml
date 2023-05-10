@@ -107,11 +107,11 @@ navigation:
   - text: Управление субъектами
     path: guide/database-subject.html
     children:
+    - text: Добавление нового врача
+      path: guide/add-subject-new.html
+
     - text: Страница редактирования субъекта
       path: guide/database-subject-edit.html
-
-    - text: Добавление нового врача
-      path: guide/add-subject-new.htmld
 
     - text: Режим работы субъекта
       path: guide/database-subject-schedule.html
