@@ -195,13 +195,16 @@ navigation:
       path: guide/database-dict-merge.html
       
     - text: Добавление собственных критериев оценки
-      path: guide/database-dict-hand-criteria.html 
+      path: guide/database-dict-hand-criteria.html
 
     - text: Метки
       path: guide/tags.html
 
   - text: Материалы/Презентации
-    path: guide/presentation.html      
+    path: guide/presentation.html
+
+    - text: Загрузка формата gif
+      path: guide/gif.html
 
 - text: Ответственные
   children:
